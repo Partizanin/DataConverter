@@ -74,7 +74,7 @@ public class CashServlet extends HttpServlet {
 
         }
 
-        request.getRequestDispatcher("dataCapacityPage.html").forward(request, response);
+        request.getRequestDispatcher("dataCapacityConverterPage.html").forward(request, response);
 
 
     }

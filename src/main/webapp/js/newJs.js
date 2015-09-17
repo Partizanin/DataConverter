@@ -166,7 +166,7 @@ function changedListener(object) {
     }
 
 
-    var selectedValue= $( "#selectExchange" ).val();
+    var selectedValue= $("#selectExchange").val();
 
     console.log("ChangeListener:" + selectedValue + " " + pressedButton );
 }
